@@ -1,0 +1,8 @@
+method 
+public static void saro(){
+    saro("hello")
+}
+public static void add(int a,int b)
+{
+    add(a+b)
+}
