@@ -1,0 +1,9 @@
+| Complexity     | Meaning               | Simple Example (Java)          |    If n = 8 | Real-life Example              |
+| -------------- | --------------------- | ------------------------------ | ----------: | ------------------------------ |
+| **O(1)**       | Constant time         | `arr[0]`                       |      1 step | Open exact page in book        |
+| **O(log n)**   | Divide by 2 each step | Binary Search                  |     3 steps | Guess number by halving        |
+| **O(n)**       | Check one by one      | Single loop                    |     8 steps | Search name in attendance list |
+| **O(n log n)** | Split + process       | Merge Sort                     |   ~24 steps | Sort papers efficiently        |
+| **O(n²)**      | Nested loops          | Double loop                    |    64 steps | Compare everyone with everyone |
+| **O(2ⁿ)**      | Doubles each step     | Recursive brute force          |   256 steps | Try all yes/no combinations    |
+| **O(n!)**      | All permutations      | Traveling salesman brute force | 40320 steps | Try every seating arrangement  |
