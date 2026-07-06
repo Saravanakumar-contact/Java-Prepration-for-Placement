@@ -1,6 +1,7 @@
 public class maxElementbySelection {
     public static void main(String[] args){
         int arr[]={1,2,4,3,5};
+        int count=0;
         for(int i=0;i<arr.length-1;i++){
             int MaxIndex=i;
             for(int j=i+1;j<arr.length;j++){
@@ -10,11 +11,13 @@ public class maxElementbySelection {
                 int temp=arr[MaxIndex];
                 arr[MaxIndex]=arr[i];
                 arr[i]=temp;
+                count++;
             }
          }
         for(int sum:arr){
           System.out.println(sum + " ");
         }
+        System.out.println(count);
     }
 }
 
